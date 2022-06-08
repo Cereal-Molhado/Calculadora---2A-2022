@@ -1,6 +1,11 @@
+html{
+  height: 1200%;
+  width: 150%;
+}
+
 body{
-    background-image: linear-gradient(to left, cyan, teal, yellowgreen);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: linear-gradient(to left, cyan, teal, yellowgreen) no-repeat;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', 'Arial', 'sans-serif';
 }
 h1 {
 	text-align: center;
@@ -11,8 +16,8 @@ h1 {
   background-image: linear-gradient(rgb(127, 16, 192), rgb(255, 0, 242));
     height: 370px;
     width: 400px;
-    margin-left: 30%;
-    margin-right: 50%;
+    margin-left: 40%;
+    margin-right: 40%;
 }
 
 
@@ -42,3 +47,13 @@ border-radius: 20%;
     margin-left: -1%;
     background-color: rgb(131, 4, 131);
 }
+@media only screen and (max-device-width: 900px) {
+  body { 
+    width: 100%;
+    height: 100%;
+  } 
+  #Calculadora { 
+    margin-right: 50%;
+    margin-left: 50%;
+  }
+  }
